@@ -9,7 +9,7 @@ class TestAddition(unittest.TestCase):
     result = add(3, 4)
 
     # Define the expected result
-    expected_result = 9
+    expected_result = 7.0
     self.assertEqual(result, expected_result)
 
 if __name__ == '__main__':
